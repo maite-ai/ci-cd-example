@@ -17,6 +17,7 @@ app.add_middleware(
 def root():
     response = {
         'greeting': 'Servus, griaß di!',    # This is a typical Bavarian greeting ;)
+        'author': 'Mai'
     }
 
     return response
